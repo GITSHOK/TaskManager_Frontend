@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import sidebar from "./sidebar.jsx";
+import Sidebar from "./Sidebar.jsx";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 import axios from "axios";
@@ -43,7 +43,7 @@ const Calender = () => {
     <div className="flex min-h-screen">
 
       {/* Sidebar */}
-      <sidebar />
+      <Sidebar />
 
       {/* Main Content */}
       <div className="flex-1 p-6 bg-gray-50">
