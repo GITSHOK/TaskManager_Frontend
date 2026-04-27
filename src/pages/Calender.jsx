@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import sidebar from "./sidebar";
+import sidebar from "./sidebar.jsx";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 import axios from "axios";

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import sidebar from "./sidebar";
+import sidebar from "./sidebar.jsx";
 
 import {
   PieChart, Pie, Cell, Tooltip, Legend,
