@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from "axios"
 import { useNavigate,Link } from "react-router-dom"
-import Sidebar from "./Sidebar";
+import sidebar from "./sidebar";
 
 const Home = () => {
 
@@ -162,7 +162,7 @@ const Home = () => {
   return (
     <div className="flex min-h-screen">
       {/* Sidebar */}
-    <Sidebar />
+    <sidebar />
     <div className="p-6">
 
       <h2 className="font-bold text-xl mb-4">Welcome {name}</h2>

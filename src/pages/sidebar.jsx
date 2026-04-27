@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
-const Sidebar = () => {
+const sidebar = () => {
   const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
 
@@ -58,4 +58,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default sidebar;

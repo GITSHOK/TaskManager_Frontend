@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Sidebar from "./Sidebar";
+import sidebar from "./sidebar";
 
 import {
   PieChart, Pie, Cell, Tooltip, Legend,
@@ -35,7 +35,7 @@ const Analytics = () => {
 
   return (
     <div className="flex min-h-screen">
-      <Sidebar />
+      <sidebar />
 
       <div className="flex-1 p-6 bg-gray-50 space-y-8">
 
