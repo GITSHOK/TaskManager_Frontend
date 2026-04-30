@@ -13,7 +13,7 @@ const Analytics = () => {
   const token = localStorage.getItem("token");
 
   useEffect(() => {
-    axios.get("http://localhost:3001/taskstats", {
+    axios.get("https://taskmanager-backend-0a21.onrender.com/taskstats", {
       headers: { Authorization: token }
     })
     .then(res => setTaskcount(res.data))
